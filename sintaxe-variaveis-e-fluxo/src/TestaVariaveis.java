@@ -44,6 +44,27 @@ public class TestaVariaveis {
 		System.out.println(novaTentativaDivisao);
 		
 		//Testando Conversões.
+		
+		int valor = (int) salario; //Aqui, converti para int o valor em double, declarado lá em cima.
+		
+		System.out.println("Retornando o valor de salário somente em inteiro " + valor);
+		
+		//Outras variáveis númericas no Java.
+		
+		long numeroGrande = 3232333233445l; //para declarar numeros MUITO grandes depois de 200000.
+		
+		System.out.println(numeroGrande);
+		
+		short numeroPequeno = 2131; //números MUITOS pequenos
+		
+		System.out.println(numeroPequeno);
+		
+		byte numeroByte = 127; 
+		
+		System.out.println(numeroByte);
+		
+		//AVISO: normalmente, salários não são utilizados em flutuante (double).
+		
 	}
 	
 }
