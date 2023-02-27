@@ -14,6 +14,7 @@ public class TestaVariaveis {
 		int novaIdade = idade + 10;
 		
 		System.out.println("A nova idade é " + novaIdade + " Obrigada!");
+		
 	}
 	
 }
