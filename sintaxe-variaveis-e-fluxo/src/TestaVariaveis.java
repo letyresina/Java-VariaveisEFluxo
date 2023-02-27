@@ -1,4 +1,4 @@
-
+//Para subir no GitHub.
 public class TestaVariaveis {
 	
 	public static void main(String[] args) {
@@ -13,8 +13,33 @@ public class TestaVariaveis {
 		
 		int novaIdade = idade + 10;
 		
-		System.out.println("A nova idade é " + novaIdade + " Obrigada!");
+		System.out.println("A nova idade é " + novaIdade + ". Obrigada!");
 		
+		//Testando pontos flutuantes.
+		
+		double salario = 1250.70;
+		
+		System.out.println("Seu salário é ", salario);
+		
+		//Double tem como você armazenar números inteiros também!
+		
+		double valorInteiro = 30;
+		
+		System.out.println("O valor inteiro definido foi " + valorInteiro);
+		
+		/*Alguns testes com operadores aritmético*/
+		
+		double divisao = salario / valorInteiro;
+		
+		System.out.println("O valor da divisão entre os dois números é de " + divisao);
+		
+		double novaDivisao = 5 / 2;
+		
+		System.out.println(novaDivisao);
+		
+		double novaTentativaDivisao = 5.0 / 2;
+		
+		System.out.println(novaTentativaDivisao);
 	}
 	
 }
