@@ -33,13 +33,17 @@ public class TestaVariaveis {
 		
 		System.out.println("O valor da divisão entre os dois números é de " + divisao);
 		
-		double novaDivisao = 5 / 2;
+		double novaDivisao = 5 / 2; /*quando ee retorna, retorna um número inteiro por não haver
+		um flutuante (double). Por isso, o retorno é 2! */
 		
 		System.out.println(novaDivisao);
 		
-		double novaTentativaDivisao = 5.0 / 2;
+		double novaTentativaDivisao = 5.0 / 2; /*Aqui nesse caso, é diferente. Ele retorna em 
+		flutuante (double) por haver o .0 depois do 5, portanto retorna 2.5*/
 		
 		System.out.println(novaTentativaDivisao);
+		
+		//Testando Conversões.
 	}
 	
 }
